@@ -118,8 +118,9 @@ subparsers.required = True
 
 #subparser for install command
 parser_install = subparsers.add_parser('install')
-parser_install.add_argument('-p','--threads',help='Number of threads used in building index default:1',default='1',required=False)
 
+#bowtie2-build doesn't take threads
+#parser_install.add_argument('-p','--threads',help='Number of threads used in building index default:1',default='1',required=False)
 
 #subparser for mapping routine
 parser_map = subparsers.add_parser('map')
