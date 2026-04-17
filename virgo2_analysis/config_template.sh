@@ -43,7 +43,6 @@ export MAP_THREADS=8      # map步骤线程数
 # Taxonomy步骤参数
 export TAX_BACTERIA=0     # 1=仅细菌，0=所有域（包括真菌）
 export TAX_FILTER=1       # 1=过滤低丰度，0=不过滤
-export TAX_READCOUNTS=0   # 1=输出reads数，0=输出相对丰度
 export TAX_MULTIGENERA=0  # 1=包含多属基因，0=不包含
 
 #-------------------------------------------------------------------------------
